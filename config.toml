@@ -1,0 +1,29 @@
+baseurl = "http://rafaelolg.github.io"
+languageCode = "pt-br"
+title = "Data Bravata"
+theme = "beautifulhugo"
+pygmentsUseClasses = true
+disqusShortname = "databravata"
+googleAnalytics = "UA-79609316-1"
+
+[Params]
+#  logo = "img/avatar-icon.png"
+  subtitle = "Análise de Dados e Data Science"
+
+[Author]
+  name = "Rafael Lopes"
+ # facebook = "rafaelolg"
+  github = "rafaelolg"
+  twitter = "rafaelolg"
+  linkedin = "rafaelolg"
+ # stackoverflow = "1057843/rafaellopes"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Sobre"
+    url = "/page/sobre/"
+    weight = 2
