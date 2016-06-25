@@ -13,7 +13,7 @@ help:
 	@echo '   make generate                       	regenerate files for publication   '
 	@echo '   make deploy                        	generate using production settings '
 
-preview:
+serve_drafts:
 	hugo server  -w -D
 serve:
 	hugo server
