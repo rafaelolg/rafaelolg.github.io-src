@@ -5,7 +5,7 @@ S3_BUCKET=databravata.com.br
 
 
 help:
-	@echo 'Makefile for a pelican Web site                                           '
+	@echo 'Makefile for a hugo(rafaelolg.github.io) Web site                                           '
 	@echo '                                                                          '
 	@echo 'Usage:                                                                    '
 	@echo '   make preview  					  serve with drafts              '
