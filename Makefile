@@ -20,6 +20,7 @@ serve:
 
 generate:
 	hugo
+	echo "databravata.com.br" > $(OUTPUTDIR)/CNAME
 
 deploy:generate
 	cd $(OUTPUTDIR) && git add -A && git commit && git push && git add public && git commit -m "Deploy site"
